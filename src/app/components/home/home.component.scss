@@ -1,0 +1,257 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import '../../../colors.scss';
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: auto !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    height: 85vh;
+    min-height: 450px;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../../assets/img/home/bannerHome.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.shape {
+    width: 100%;
+    bottom: -5px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.c-conocermas {
+    padding: 30%;
+}
+
+.textoHome {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #fffefe;
+    padding: 15%;
+}
+
+.btn-slider {
+    height: 60px;
+    width: 200px;
+    border: solid white;
+    border-radius: 15px;
+    color: white;
+    background: transparent;
+}
+
+.rowCont {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.h3 {
+    margin-top: -20px;
+}
+
+
+/*******/
+
+@media only screen and (max-width: 700px),
+only screen and (max-device-width: 700px) {
+    .c-conocermas {
+        padding: 0% !important;
+        margin-top: 45% !important;
+    }
+    .textoHome {
+        font-size: 30px !important;
+    }
+    h3 {
+        font-size: 30px !important;
+    }
+    .rowCont {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+    .logoPatrocinador {
+        height: 165px;
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.about-filosofia {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.about-filosofia mat-card {
+    height: 30vh;
+    min-height: 250px;
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+    color: white;
+}
+
+mat-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.mision-card {
+    background: linear-gradient( rgba(12, 3, 74, 0.5), rgba(37, 12, 64, 0.6)), url(https://www.vivesalud.mx/wp-content/uploads/2019/04/1200x628WEB-01-4.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vision-card {
+    background: linear-gradient( rgba(12, 3, 74, 0.5), rgba(37, 12, 64, 0.6)), url(https://fisiofine.com/wp-content/uploads/2018/11/fisioterapia-deportiva-guadalajara.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.valores-card {
+    background: linear-gradient( rgba(12, 3, 74, 0.5), rgba(37, 12, 64, 0.6)), url(https://www.uniqskills.com/uploads/landing/5d83759b6e959128402998.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.benefisioTab {
+    justify-content: center;
+    align-content: center;
+    padding: 30px !important;
+}
+
+mat-tab-group {
+    margin-bottom: 50px;
+    overflow-x: hidden !important;
+}
+
+mat-tab-group mat-tab-body-content {
+    height: auto !important;
+    overflow: hidden !important;
+    min-height: 400px;
+    border-bottom: rgb(85, 84, 84) 1px solid !important;
+}
+
+.imgtap {
+    height: 100%;
+    width: auto;
+    background: linear-gradient( rgba(12, 3, 74, 0.5), rgba(37, 12, 64, 0.6));
+    position: absolute;
+}
+
+mat-card hr {
+    width: 50%;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+
+.patrocinador {
+    padding-left: 36px !important;
+    padding-right: 36px !important;
+}
+
+.patrocinador mat-card {
+    padding: 0px !important;
+}
+
+.patrocinador mat-card mat-card-content {
+    padding: 10px !important;
+}
+
+.mat-card-patrocinador mat-card {
+    height: auto;
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.mat-card-patrocinador mat-card:hover {
+    transform: scale(0.9) !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.patrocinador mat-card-title {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white !important;
+    height: 40px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.patrocinador mat-card-footer {
+    width: 100%;
+}
+
+.patrocinador mat-card-footer {
+    display: block;
+    margin: 0 0px -17px 0px;
+}
+
+.patrocinador mat-card mat-card-actions {
+    margin-left: 0px !important;
+}
+
+.labelTitle {
+    width: 100%;
+    background: $titlecardPatrocinador;
+}
+
+.bottom-p {
+    height: 50px;
+    width: 100%;
+    background: $titlecardPatrocinador;
+    text-align: center;
+    color: white !important;
+}
+
+.bottom-p a {
+    color: white !important;
+}
+
+.bottom-p span {
+    padding: 5px !important;
+}
+
+.img-patrocinio {
+    max-height: 255px;
+    height: auto;
+    width: 100%;
+    background: $borderbottom;
+    position: relative;
+}
+
+.card-img-logo {
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-items: center;
+    align-self: center;
+}

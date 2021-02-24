@@ -1,0 +1,39 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import '../../../colors.scss';
+header {
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    width: 100%;
+    height: auto;
+    // padding: 24px;
+}
+
+.logoMenu {
+    width: 150px;
+    height: auto;
+    margin-top: 2px !important;
+}
+
+.navbar-nav {
+    padding-left: 10% !important;
+}
+
+.navbar-nav .material-icons {
+    font-size: 17px !important;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.bg-light {
+    background-color: white !important;
+    border-bottom: solid 5px $borderbottom !important;
+}
+
+.nav-item a {
+    color: #069DBF !important;
+}
+
+.nav-item a:hover {
+    color: #544a9e!important;
+}

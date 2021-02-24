@@ -1,0 +1,61 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import '../../../colors.scss';
+.contenedor {
+    width: 80%;
+    height: auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center !important;
+    align-items: center !important;
+}
+
+form {
+    min-height: auto;
+    height: auto;
+}
+
+.formInfo {
+    background: $borderbottom !important;
+    color: white !important;
+    border-radius: 20px !important;
+}
+
+.icon_contact {
+    align-items: center;
+    width: 60px !important;
+    height: auto;
+}
+
+.mat-form-field {
+    width: 100%;
+}
+
+.matInput::placeholder {
+    color: $borderbottom;
+}
+
+.shape-contact {
+    color: $borderbottom;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    font-size: 3vh;
+}
+
+.social-btns a {
+    color: white !important;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    height: 50px !important;
+}
+
+.social-btns a img {
+    height: 50px;
+    width: auto;
+    padding-right: 10px;
+}

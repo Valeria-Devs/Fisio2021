@@ -1,0 +1,40 @@
+@import '../../../colors.scss';
+footer {
+    z-index: 100;
+    position: sticky;
+    color: white;
+}
+
+footer a {
+    color: white !important;
+    font-weight: 400;
+}
+
+.top-footer {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.footer-dev {
+    background-color: #3bb2a9;
+    height: auto;
+    border-bottom: solid 10px $borderbottom !important;
+}
+
+.social-btns img {
+    margin-top: -20px !important;
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.terminos {
+    font-weight: 500;
+    text-decoration: underline white;
+    display: inline-block;
+    /* Subrayado rojo */
+}

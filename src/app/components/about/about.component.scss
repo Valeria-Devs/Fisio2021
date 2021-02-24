@@ -1,0 +1,108 @@
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: auto !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    height: 85vh;
+    min-height: 450px;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.icel.edu.mx/storage/2020/07/img-fisioterapia.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.shape {
+    width: 100%;
+    bottom: -5px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.textoSliderTitulo {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #fffefe;
+    padding: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoSliderTitulo hr {
+    width: 50%;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+
+.aboutF {
+    margin-top: 16px;
+}
+
+.aboutF .row {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.aboutF .img-fluid {
+    height: 300px;
+    width: auto;
+}
+
+.afilosofia mat-card {
+    height: 30vh;
+    min-height: 250px;
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+    color: white;
+}
+
+.mision-card {
+    background: linear-gradient( rgba(12, 3, 74, 0.5), rgba(37, 12, 64, 0.6)), url(https://www.vivesalud.mx/wp-content/uploads/2019/04/1200x628WEB-01-4.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vision-card {
+    background: linear-gradient( rgba(12, 3, 74, 0.5), rgba(37, 12, 64, 0.6)), url(https://fisiofine.com/wp-content/uploads/2018/11/fisioterapia-deportiva-guadalajara.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.valores-card {
+    background: linear-gradient( rgba(12, 3, 74, 0.5), rgba(37, 12, 64, 0.6)), url(https://www.uniqskills.com/uploads/landing/5d83759b6e959128402998.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 700px),
+only screen and (max-device-width: 700px) {
+    .textoSliderTitulo {
+        font-size: 30px !important;
+        margin-top: 50%;
+    }
+    h3 {
+        font-size: 30px !important;
+    }
+}
